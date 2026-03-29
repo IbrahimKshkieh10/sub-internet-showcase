@@ -15,8 +15,8 @@ Full-stack ISP management system built for a real telecommunications business, c
 - Containerized environment using Docker
 
 > **Status:** Deployed in a real business environment (early-stage usage), with ongoing development  
-> **Live Demo:** https://darkslateblue-marten-372275.hostingersite.com  
-> **Demo Login:** demo@subinternet.com / demo123  
+> **Live website:** https://darkslateblue-marten-372275.hostingersite.com  
+> **Demo Login:** on request
 >
 > **Note:** Source code is private due to business confidentiality. This repository showcases system architecture, features, and UI. Code is available upon request for hiring purposes.
 
