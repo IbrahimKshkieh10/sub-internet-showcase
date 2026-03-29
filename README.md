@@ -84,15 +84,23 @@ MySQL Database
 
 ## Screenshots
 
-See [`/screenshots`](/screenshots)
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-- Dashboard (system overview and quick actions)
-- Subscribers (data table with filtering, pagination, RTL support)
-- Subscriptions (status lifecycle and management actions)
-- Payments (multi-method payment tracking)
-- Activity Log (audit trail with field-level changes)
-- Arabic UI (full RTL layout with translation)
+### Subscribers
+![Subscribers](screenshots/subscribers.png)
 
+### Subscriptions
+![Subscriptions](screenshots/subscriptions.png)
+
+### Payments
+![Payments](screenshots/payments.png)
+
+### Activity Log
+![Activity Log](screenshots/activity-log.png)
+
+### Arabic UI (RTL)
+![Arabic UI](screenshots/arabic-ui.png)
 ---
 
 ## Key Engineering Decisions
