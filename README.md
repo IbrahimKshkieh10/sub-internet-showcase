@@ -108,6 +108,10 @@ MySQL Database
 ### SPA Authentication (Sanctum vs JWT)
 Laravel Sanctum was chosen for cookie-based SPA authentication to simplify session handling and avoid token refresh complexity. This required careful handling of CORS, CSRF protection, and cross-subdomain cookies.
 
+### Asynchronous Import/Export
+Synchronous import/export blocked the UI and risked timeouts on larger datasets. The workflow was redesigned around Laravel queues: users enqueue an export or import job and keep working, while a persistent job history shows status and exposes downloadable results once the job completes. Exports expose a date filter (defaulting to updated_at, with a created_at option), and every row created by an import is tagged with an import note, making it traceable back to the job that created it.
+
+
 ### Containerized Architecture (Docker)
 Docker was adopted early to ensure consistent environments across development and deployment, eliminating environment-related inconsistencies and simplifying future scalability.
 
