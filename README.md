@@ -20,7 +20,7 @@ unified platform.
 
 > **Status:** Deployed in a real business environment (early-stage usage), with ongoing development
 > 
-> **Live website:** https://darkslateblue-marten-372275.hostingersite.com
+> **Live website:** https://subnet.shammap.com/
 > **Demo Login:** on request
 >
 > **Note:** Source code is private due to business confidentiality. This repository showcases system architecture, features, and UI. Code is available upon request for hiring purposes.
